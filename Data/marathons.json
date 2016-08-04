@@ -1,0 +1,101 @@
+﻿{
+
+    "MarathonList": [
+        {
+            "MarathonName": "Cloverfield Duology",
+            "Length": "3hrs 9min",
+            "Movies": [
+                "Cloverfield (2008)",
+                "10 Cloverfield Lane (2016)"
+            ]
+        },
+        {
+            "MarathonName": "The Dark Knight Trilogy",
+            "Length": "7hrs 36min",
+            "Movies": [
+                "Batman Begins (2005)",
+                "The Dark Knight (2008)",
+                "The Dark Knight Rises (2012)"
+            ]
+        },
+        {
+            "MarathonName": "The Matrix Trilogy",
+            "Length": "6hrs 43min",
+            "Movies": [
+                "The Matrix (1999)",
+                "The Matrix Reloaded (2003)",
+                "The Matrix Revolutions (2003)"
+            ]
+        },
+        {
+            "MarathonName": "Mission: Impossible Pentalogy",
+            "Length": "10hrs 23min",
+            "Movies": [
+                "Mission: Impossible (1996)",
+                "Mission: Impossible II (2000)",
+                "Mission: Impossible III (2006)",
+                "Mission: Impossible - Ghost Protocol (2011)",
+                "Mission: Impossible - Rouge Nation (2015)"
+            ]
+        },
+        {
+            "MarathonName": "Die Hard Pentalogy",
+            "Length": "10hrs 9min",
+            "Movies": [
+                "Die Hard (1988)",
+                "Die Hard 2 (1990)",
+                "Die Hard with a Vengance (1995)",
+                "Live Free or Die Hard (2007)",
+                "A Good Day to Die Hard (2013)"
+            ]
+        },
+        {
+            "MarathonName": "Indiana Jones Quadrilogy",
+            "Length": "8hrs 2min",
+            "Movies": [
+                "Raiders of the Lost Ark (1981)",
+                "Indiana Jones anthe Temple of Doom (1984)",
+                "Indiana Jones and the Last Crusade (1989)",
+                "Indiana Jones and the Kingdom of the Crystall Skull (2008)"
+            ]
+        },
+        {
+            "MarathonName": "The Lord of the Rings Trilogy",
+            "Length": "11hrs 25min",
+            "Movies": [
+                "The Lord of the Rings: The Fellow Ship of the Ring (2001)*",
+                "The Lord of the Rings: The Two Towers (2002)*",
+                "The Lord of the Rings: The Return of the King (2003)*"
+            ]
+        },
+        {
+            "MarathonName": "The Hobbit Trilogy",
+            "Length": "8hrs 52min",
+            "Movies": [
+                "The Hobbit: An Unexpected Journey (2012)*",
+                "The Hobbit: The Desolation of Smaug (2013)*",
+                "The Hobbit: The Battle of the Five Armies (2014)*"
+            ]
+        },
+        {
+            "MarathonName": "Austin Powers Trilogy",
+            "Length": "4hrs 38min",
+            "Movies": [
+                "Austin Powers: International Man of Mystery (1997)",
+                "Austin Powers: The Spy Who Shagged Me (1999)",
+                "Austin Powers in Goldmember (2002)"
+            ]
+        },
+         {
+            "MarathonName": "The Bourne Pentalogy",
+            "Length": "10hrs",
+            "Movies": [
+                "The Bourne Identity (2002)",
+                "The Bourne Supremacy (2004)",
+                "The Bourne Ultimatum (2007)",
+                "The Bourne Legacy (2012)",
+                "Jason Bourne (2016)"
+            ]
+        }
+    ]
+}
