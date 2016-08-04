@@ -1,0 +1,477 @@
+﻿body {
+    margin: 0;
+    background-color: #7acc62;
+    font-family: Consolas !important;
+}
+
+
+/*Navigation Bar*/
+nav.menubar {
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+    ul.topnav li {
+        float: left;
+        box-sizing: border-box;
+        width: 50%;
+    }
+
+        ul.topnav li a {
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+            ul.topnav li a.home {
+                background-color: #1C1C1E;
+                color: #FFF;
+            }
+
+            ul.topnav li a.about {
+                background-color: #FFF;
+                color: #1C1C1E;
+            }
+
+            ul.topnav li a:hover {
+                background-color: #b24545;
+            }
+
+
+@media screen and (max-width: 800px) {
+    ul.topnav li {
+        float: none;
+        width: 100%;
+    }
+}
+/*End Navigation Bar*/
+
+/*List Marathons*/
+
+article.marathons header.title h1 {
+    text-align: center;
+    text-decoration: none;
+}
+
+article.marathons header.title section {
+    text-align: center;
+    font-weight: bold;
+}
+
+
+section.list {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+
+
+
+ul.listheader {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1C1C1E;
+}
+
+    ul.listheader li {
+        float: left;
+        box-sizing: border-box;
+        width: 33.33%;
+    }
+
+        ul.listheader li span {
+            display: block;
+            text-align: center;
+            font-weight: bold;
+            color: #FFF;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        ul.listheader li.centercol {
+            border: none;
+            border-left: 1px solid #FFF;
+            border-right: 1px solid #FFF;
+        }
+
+@media screen and (max-width: 800px) {
+    ul.listheader li {
+        float: none;
+        width: 100%;
+    }
+
+        ul.listheader li.centercol {
+            border: none;
+            border-top: 1px solid #FFF;
+            border-bottom: 1px solid #FFF;
+        }
+}
+
+/*Even Items*/
+
+ul.listitem {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFF;
+}
+
+    ul.listitem li {
+        float: left;
+        box-sizing: border-box;
+        width: 33.33%;
+    }
+    
+        ul.listitem li span {
+            display: inline-block;
+            text-align: center;
+            color: #1C1C1E;
+            padding: 14px 16px;
+            text-decoration: none;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+.dropbtn:after {
+    content: "◀";
+    float: right;
+    font-size: 14px;
+}
+
+.dropbtn.active {
+    background-color: #b24545;
+}
+
+    .dropbtn.active:after {
+        content: "◀";
+        font-size: 14px;
+        -ms-transform: rotate(-90deg); /* IE 9 */
+        -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+        transform: rotate(-90deg);
+    }
+
+.dropbtn:hover {
+    cursor: pointer;
+}
+
+ul.listitem li.centercol {
+    border: none;
+    border-left: 1px solid #1C1C1E;
+    border-right: 1px solid #1C1C1E;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-content: center;
+    width: 90%;
+}
+
+.content-pad {
+    padding: 1px;
+}
+
+.content-div {
+    background-color: #b24545;
+}
+
+.dropdown-content div {
+    float: left;
+    box-sizing: border-box;
+    width: 33.33%;
+    display: block;
+}
+
+.dropdown-content span {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.dropdown-content.show {
+    display: block;
+    left: 0%;
+}
+
+
+@media screen and (max-width: 800px) {
+
+    ul.listitem li {
+        float: none;
+        width: 100%;
+    }
+
+        ul.listitem li.centercol {
+            border: none;
+            border-top: 1px solid #1C1C1E;
+            border-bottom: 1px solid #1C1C1E;
+        }
+
+    .dropdown-content {
+        display: none;
+        position: relative;
+        margin-left: 5%;
+        margin-right: 5%;
+        align-content: center;
+        width: 100%;
+    }
+
+        .dropdown-content div {
+            float: left;
+            box-sizing: border-box;
+            width: 100%;
+            display: block;
+        }
+
+    .content-pad {
+        padding: 0px;
+    }
+
+    .dropdown-content.show {
+        display: block;
+        left: -5%;
+    }
+}
+
+/*Even Items*/
+
+
+/*Odd Items*/
+ul.oddlistitem {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1C1C1E;
+}
+
+    ul.oddlistitem li {
+        float: left;
+        box-sizing: border-box;
+        width: 33.33%;
+    }
+    
+        ul.oddlistitem li span {
+            display: inline-block;
+            text-align: center;
+            color: #FFF;
+            padding: 14px 16px;
+            text-decoration: none;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+.odddropbtn:after {
+    content: "◁";
+    float: right;
+    font-size: 14px;
+}
+
+.odddropbtn.active {
+    background-color: #b24545;
+}
+
+    .odddropbtn.active:after {
+        content: "◁";
+        font-size: 14px;
+        -ms-transform: rotate(-90deg); /* IE 9 */
+        -webkit-transform: rotate(-90deg); /* Chrome, Safari, Opera */
+        transform: rotate(-90deg);
+    }
+
+.odddropbtn:hover {
+    cursor: pointer;
+}
+
+ul.oddlistitem li.oddcentercol {
+    border: none;
+    border-left: 1px solid #FFF;
+    border-right: 1px solid #FFF;
+    display: inline-block;
+}
+
+.odddropdown-content {
+    display: none;
+    position: absolute;
+    margin-left: 5%;
+    margin-right: 5%;
+    align-content: center;
+    width: 90%;
+}
+
+.oddcontent-pad {
+    display: none;
+    padding: 1px;
+}
+
+.oddcontent-div {
+    background-color: #b24545;
+}
+
+.odddropdown-content div {
+    float: left;
+    box-sizing: border-box;
+    width: 33.33%;
+    display: block;
+}
+
+.odddropdown-content span {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+.odddropdown-content.show {
+    display: block;
+    left: 0%;
+}
+
+@media screen and (max-width: 800px) {
+
+    ul.oddlistitem li {
+        float: none;
+        width: 100%;
+    }
+
+        ul.oddlistitem li.oddcentercol {
+            border: none;
+            border-top: 1px solid #FFF;
+            border-bottom: 1px solid #FFF;
+        }
+
+    .odddropdown-content {
+        display: none;
+        position: relative;
+        margin-left: 5%;
+        margin-right: 5%;
+        align-content: center;
+        width: 100%;
+    }
+
+        .odddropdown-content div {
+            float: left;
+            box-sizing: border-box;
+            width: 100%;
+            display: block;
+        }
+
+    .oddcontent-pad {
+        padding: 0px;
+    }
+
+    .odddropdown-content.show {
+        display: block;
+        left: -5%;
+    }
+}
+/*Odd Items*/
+
+
+article.marathons footer.lastupdate section {
+    text-align: right;
+    font-weight: bold;
+    font-style: italic;
+    font-size: small;
+    margin-right: 5%;
+}
+
+@media screen and (max-width: 800px) {
+    article.marathons footer.lastupdate section {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    font-size: small;
+    margin-right: 0%;
+}
+
+}
+
+/*End List Marathons*/
+
+/*About Page*/
+
+article.aboutme header.title h1 {
+    text-align: center;
+    text-decoration: none;
+}
+
+article.aboutme header.title section {
+    text-align: center;
+    font-weight: bold;
+}
+
+article.aboutme section.abouttext {
+    margin-left:5%;
+    text-align:left;
+    font-weight:bold;
+
+}
+
+article.aboutme footer.fineprint section {
+    margin-left:5%;
+    font-size:small;
+    font-weight:bold;
+    font-style:italic;
+    text-align:left;
+}
+
+
+ul.download {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width:20%
+}
+
+    ul.download li {
+        float: left;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+        ul.download li a {
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+            ul.download li a.btndown {
+                background-color: #1C1C1E;
+                color: #FFF;
+            }
+             ul.download li a:hover {
+                background-color: #b24545;
+            }
+
+
+@media screen and (max-width: 800px) {
+    ul.download {
+    min-width:150px;
+}
+}
+/*End About Page*/
+
+
+
