@@ -18,7 +18,7 @@
                     text += "**************************************************************************************\r\n";
                 }
 
-                var test = encodeURIComponent(text);
+                text+="*Extended Cut";
                 $(".btndown").attr("href", "data:text/plain;charset=utf-8,"+encodeURIComponent(text));
             })
             );
