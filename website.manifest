@@ -1,9 +1,9 @@
 CACHE MANIFEST
-# 2016-08-04 v1.0.1
-/CSS/websitestyle.css
+# 2016-08-04 v1.0.0
+MovieMarathons/CSS/websitestyle.css
 MovieMarathons/HTML/evenlistitem.html
-/HTML/oddlistitem.html
-/Pictures/icon.jpg
-/Scripts/jquery-3.1.0.min.js
-/Scripts/indexscripts.js
-/Scripts/aboutscripts.js
+MovieMarathons/HTML/oddlistitem.html
+MovieMarathons/Pictures/icon.jpg
+MovieMarathons/Scripts/jquery-3.1.0.min.js
+MovieMarathons/Scripts/indexscripts.js
+MovieMarathons/Scripts/aboutscripts.js
