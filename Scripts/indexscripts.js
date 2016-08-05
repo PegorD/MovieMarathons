@@ -43,7 +43,7 @@
         }
         if (index % 2 == 0) {
             $tempcode.find('.dropbtn').text(marathons[index].Movies[0]);
-            $tempcode.find(.content-div').html(spancode);
+            $tempcode.find('.content-div').html(spancode);
         } else {
 
             $tempcode.find('.odddropbtn').text(marathons[index].Movies[0]);
