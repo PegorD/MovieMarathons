@@ -1,9 +1,9 @@
-﻿"use strict";
+﻿'use strict';
 (function () {
-    var marathons = "";
+    var marathons = '';
     $(document).ready(function () {
-        var marathons = "";
-        var text = "";
+        var marathons = '';
+        var text = '';
 
         $.when(
             $.get('Data/marathons.json', function (data) {
