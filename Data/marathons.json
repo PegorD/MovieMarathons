@@ -2,7 +2,7 @@
 
     "MarathonList": [
         {
-            "MarathonName": "Cloverfield Duology",
+            "MarathonName": "Cloverfield Dilogy",
             "Length": "3hrs 9min",
             "Movies": [
                 "Cloverfield (2008)",
@@ -44,19 +44,19 @@
             "Movies": [
                 "Die Hard (1988)",
                 "Die Hard 2 (1990)",
-                "Die Hard with a Vengance (1995)",
+                "Die Hard with a Vengeance (1995)",
                 "Live Free or Die Hard (2007)",
                 "A Good Day to Die Hard (2013)"
             ]
         },
         {
-            "MarathonName": "Indiana Jones Quadrilogy",
+            "MarathonName": "Indiana Jones Tetralogy",
             "Length": "8hrs 2min",
             "Movies": [
                 "Raiders of the Lost Ark (1981)",
-                "Indiana Jones anthe Temple of Doom (1984)",
+                "Indiana Jones and the Temple of Doom (1984)",
                 "Indiana Jones and the Last Crusade (1989)",
-                "Indiana Jones and the Kingdom of the Crystall Skull (2008)"
+                "Indiana Jones and the Kingdom of the Crystal Skull (2008)"
             ]
         },
         {
@@ -95,6 +95,65 @@
                 "The Bourne Ultimatum (2007)",
                 "The Bourne Legacy (2012)",
                 "Jason Bourne (2016)"
+            ]
+        },
+        {
+            "MarathonName": "Star Wars Heptalogy",
+            "Length": "15hrs 30min",
+            "Movies": [
+                "Star Wars: Episode IV - A New Hope (1977)",
+                "Star Wars: Episode V - The Empire Strikes Back (1980)",
+                "Star Wars: Episode VI - Return of the Jedi (1983)",
+                "Star Wars: Episode I - The Phantom Menace (1999)",
+                "Star Wars: Episode II - Attack of the Clones (2002)",
+                "Star Wars: Episode III - Revenge of the Sith (2005)",
+                "Star Wars: The Force Awakens (2015)"
+            ]
+        },
+        {
+            "MarathonName": "Harry Potter Octalogy",
+            "Length": "19hrs 39min",
+            "Movies": [
+                "Harry Potter and the Sorcerer's Stone (2001)",
+                "Harry Potter and the Chamber of Secrets (2002)",
+                "Harry Potter and the Prisoner of Azkaban (2004)",
+                "Harry Potter and the Goblet of Fire (2005)",
+                "Harry Potter and the Order of the Phoenix (2007)",
+                "Harry Potter and the Half-Blood Prince (2009)",
+                "Harry Potter and the Deathly Hallows: Part 1 (2010)",
+                "Harry Potter and the Deathly Hallows: Part 2 (2011)"
+            ]
+        },
+         {
+            "MarathonName": "Cornetto Trilogy",
+            "Length": "5hrs 29min",
+            "Movies": [
+                "Shaun of the Dead (2004)",
+                "Hot Fuzz (2007)",
+                "The World's End (2013)"
+            ]
+        },
+        {
+            "MarathonName": "Pirates of the Caribbean Tetralogy",
+            "Length": "10hrs 9min",
+            "Movies": [
+                "Pirates of the Caribbean: The Curse of the Black Pearl (2003)",
+                "Pirates of the Caribbean: Dead Man's Chest (2006)",
+                "Pirates of the Caribbean: At World's End (2007)",
+                "Pirates of the Caribbean: On Stranger Tides (2011)"
+            ]
+        },
+        {
+            "MarathonName": "Fast and Furious Heptalogy",
+            "Length": "13hrs 42min",
+            "Movies": [
+                "The Fast and the Furious (2001)",
+                "2 Fast 2 Furious (2003)",
+                "The Fast and the Furious: Tokyo Drift (2006)",
+                "Fast & Furious (2009)",
+                "Fast Five (2011)",
+                "Fast & Furious 6 (2013)",
+                "Furious 7 (2015)"
             ]
         }
     ]
