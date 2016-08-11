@@ -51,7 +51,7 @@ ul.topnav {
             }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1600px) {
     nav.menubar {
         display: block;
     }
@@ -132,7 +132,7 @@ ul.listheader {
             border-right: 1px solid #FFF;
         }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1600px) {
     #list {
         display: block;
     }
@@ -251,7 +251,7 @@ ul.evenlistitem {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1600px) {
 
     ul.evenlistitem {
         display: table;
@@ -388,7 +388,7 @@ ul.oddlistitem {
 
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1600px) {
 
     ul.oddlistitem {
         display: table;
@@ -441,7 +441,7 @@ article.marathons footer.lastupdate section {
     margin-right: 5%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1600px) {
     article.marathons footer.lastupdate section {
         text-align: center;
         font-weight: bold;
@@ -512,7 +512,7 @@ ul.download {
             }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1600px) {
     ul.download {
         min-width: 150px;
     }
