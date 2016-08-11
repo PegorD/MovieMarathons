@@ -31,6 +31,7 @@
     function createRow(code, index) {
         var tempcode = '';
         var listcode = '';
+        var zindex = 'z-index:' + (marathons.length - index) + ';';
         tempcode = code;
 
         var $tempcode = $(tempcode);
@@ -41,8 +42,10 @@
             listcode += '<div class="ShowListItem">' + marathons[index].Movies[i] + '</div>\n';
 
         }
+        $tempcode.find('.centercol').attr('style', zindex);
         $tempcode.find('.MovieName').text(marathons[index].Movies[0]);
         $tempcode.find('.MovieName').append('<div class="Arrow"></div>');
+        $tempcode.find('.ShowList').attr('style', zindex);
         $tempcode.find(".ShowList").html(listcode);
 
 
