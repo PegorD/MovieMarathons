@@ -520,6 +520,14 @@ ul.download {
                 background-color: #b24545;
             }
 
+a.source {
+    text-decoration:none;
+    color:#1C1C1E;
+    }
+    
+    a.source:hover{
+        color:#B24545;
+    }
 
 @media screen and (max-width: 1600px) {
     ul.download {
