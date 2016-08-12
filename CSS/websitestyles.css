@@ -537,5 +537,62 @@ a.source {
 }
 /*End About Page*/
 
+/*404 Page*/
+article.error {
+    margin: 5% 5%;
+}
+
+    article.error header.notfound h1 {
+        text-align: center;
+        text-decoration: none;
+    }
+
+    article.error header.notfound section {
+        text-align: center;
+        font-weight: bold;
+    }
+
+
+div.centerpage {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+}
+
+ul.gohome {
+    list-style-type: none;
+    margin: 0% 25%;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 50%;
+}
+
+    ul.gohome li {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+        ul.gohome li a {
+            display: block;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+            ul.gohome li a.btnhome {
+                background-color: #1C1C1E;
+                color: #FFF;
+            }
+
+            ul.gohome li a:hover {
+                background-color: #b24545;
+            }
+/*End 404 Page*/
 
 
