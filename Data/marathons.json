@@ -155,6 +155,92 @@
                 "Fast & Furious 6 (2013)",
                 "Furious 7 (2015)"
             ]
+        },
+        {
+            "MarathonName": "Jurassic Park Tetralogy",
+            "Length": "7hrs 52min",
+            "Movies": [
+                "Jurassic Park (1993)",
+                "The Lost World: Jurassic Park (1997)",
+                "Jurassic Park III (2001)",
+                "Jurassic World (2015)"
+            ]
+        },
+        {
+            "MarathonName": "Transformers Tetralogy",
+            "Length": "10hrs 13min",
+            "Movies": [
+                "Transformers (2007)",
+                "Transformers: Revenge of the Fallen (2009)",
+                "Transformers: Dark of the Moon (2011)",
+                "Transformers: Age of Extinction (2014)"
+            ]
+        },
+        {
+            "MarathonName": "X-Men Ennealogy",
+            "Length": "18hrs 11min",
+            "Movies": [
+                "X-Men (2000)",
+                "X-Men 2 (2003)",
+                "X-Men: The Last Stand (2006)",
+                "X-Men Origins: Wolverine (2009)",
+                "X-Men: First Class (2011)",
+                "The Wolverine (2013)",
+                "X-Men: Days of Future Past (2014)",
+                "Deadpool (2016)",
+                "X-Men: Apocalypse (2016)"
+            ]
+        },
+        {
+            "MarathonName": "Scary Movie Pentalogy",
+            "Length": "7hr 4min",
+            "Movies": [
+                "Scary Movie (2000)",
+                "Scary Movie 2 (2001)",
+                "Scary Movie 3 (2003)",
+                "Scary Movie 4 (2006)",
+                "Scary Movie 5 (2013)"
+            ]
+        },
+         {
+            "MarathonName": "Ghostbusters Trilogy",
+            "Length": "5hrs 29min",
+            "Movies": [
+                "Ghostbusters (1984)",
+                "Ghostbusters II (1989)",
+                "Ghostbusters (2016)"
+            ]
+        },
+        {
+            "MarathonName": "Original Star Trek Hexalogy",
+            "Length": "11hrs 29min",
+            "Movies": [
+                "Star Trek: The Motion Picture (1979)",
+                "Star Trek II: The Wrath of Khan (1982)",
+                "Star Trek III: The Search for Spock (1984)",
+                "Star Trek IV: The Voyage Home (1986)",
+                "Star Trek V: The Final Frontier (1989)",
+                "Star Trek VI: The Undiscovered Country (1991)"
+            ]
+        },
+        {
+            "MarathonName": "Next Generation Star Trek Tetralogy",
+            "Length": "7hrs 28min",
+            "Movies": [
+                "Star Trek: Insurrection (1998)",
+                "Star Trek: Generations (1994)",
+                "Star Trek: First Contact (1996)",
+                "Star Trek: Nemesis (2002)"
+            ]
+        },
+         {
+            "MarathonName": "Star Trek Trilogy",
+            "Length": "6hrs 21min",
+            "Movies": [
+                "Star Trek (2009)",
+                "Star Trek Into Darkness (2013)",
+                "Star Trek Beyond (2016)"
+            ]
         }
     ]
 }
