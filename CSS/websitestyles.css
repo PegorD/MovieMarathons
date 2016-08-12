@@ -506,7 +506,8 @@ ul.download {
         ul.download li a {
             display: block;
             text-align: center;
-            padding: 14px 16px;
+            padding: 1.25em 0em;
+            line-height:1.25em;
             text-decoration: none;
         }
 
