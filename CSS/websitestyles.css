@@ -42,6 +42,7 @@ ul.topnav {
             padding: 1.25em 0em;
             text-decoration: none;
             line-height: 1.25em;
+            font-weight:bold;
         }
 
             ul.topnav li a.home {
