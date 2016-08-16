@@ -60,7 +60,7 @@ ul.topnav {
             }
 
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1400px) {
     nav.menubar {
         display: block;
     }
@@ -141,7 +141,17 @@ ul.listheader {
             border-right: 1px solid #FFF;
         }
 
-@media screen and (max-width: 1600px) {
+@media screen and (min-width: 1400px ) and (max-width:1600px) {
+    ul.listheader li {
+        width: 25%;
+    }
+
+        ul.listheader li.centercol {
+            width: 50%;
+        }
+}
+
+@media screen and (max-width: 1400px) {
     #list {
         display: block;
     }
@@ -258,9 +268,22 @@ ul.evenlistitem {
             display: block;
         }
 
+@media screen and (min-width: 1400px ) and (max-width:1600px) {
+    ul.evenlistitem li {
+        width: 25%;
+    }
 
+        ul.evenlistitem li.centercol {
+            width: 50%;
+        }
+         ul.evenlistitem li.centercol div.ShowList {
+                
+                width: 44.9%;
+               
+            }
+}
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1400px) {
 
     ul.evenlistitem {
         display: table;
@@ -395,9 +418,22 @@ ul.oddlistitem {
             display: block;
         }
 
+@media screen and (min-width: 1400px ) and (max-width:1600px) {
+    ul.oddlistitem li {
+        width: 25%;
+    }
 
+        ul.oddlistitem li.centercol {
+            width: 50%;
+        }
+         ul.oddlistitem li.centercol div.ShowList {
+                
+                width: 44.9%;
+               
+            }
+}
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1400px) {
 
     ul.oddlistitem {
         display: table;
@@ -450,7 +486,7 @@ article.marathons footer.lastupdate section {
     margin-right: 5%;
 }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1400px) {
     article.marathons footer.lastupdate section {
         text-align: center;
         font-weight: bold;
@@ -530,7 +566,7 @@ a.source {
         color: #B24545;
     }
 
-@media screen and (max-width: 1600px) {
+@media screen and (max-width: 1400px) {
     ul.download {
         min-width: 150px;
     }
