@@ -69,7 +69,7 @@ function scrollDropDown(a) {
     $(a).find('.Arrow').toggleClass('show');
     $(a).find('.ShowList').toggleClass('show');
     var h2 = $(document).height();
-    if (h2 > h1 && $(window).width() > 1600) {
+    if (h2 > h1 && $(window).width() > 1400) {
         $("html, body").animate({ scrollTop: $(document).height() }, 500);
     }
 };
