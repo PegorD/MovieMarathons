@@ -269,6 +269,85 @@
                 "Batman v Superman: Dawn of Justice (2016)*",
                 "Suicide Squad (2016)"
             ]
+        },
+         {
+            "MarathonName": "Taken Trilogy",
+            "Length": "4hrs 54min",
+            "Movies": [
+                "Taken (2008)",
+                "Taken 2 (2012)",
+                "Taken 3 (2014)"
+            ]
+        },
+        {
+            "MarathonName": "The Transporter Tetralogy",
+            "Length": "6hrs 19min",
+            "Movies": [
+                "The Transporter (2002)",
+                "Transporter 2 (2005)",
+                "Transporter 3 (2008)",
+                "The Transporter Refueled (2015)"
+            ]
+        },
+        {
+            "MarathonName": "Mad Max Tetralogy",
+            "Length": "6hrs 49min",
+            "Movies": [
+                "Mad Max (1979)",
+                "Mad Max 2: The Road Warrior (1981)",
+                "Mad Max Beyond Thunderdome (1985)",
+                "Mad Max: Fury Road (2015)"
+            ]
+        },
+         {
+            "MarathonName": "Spider-Man Trilogy",
+            "Length": "6hrs 27min",
+            "Movies": [
+                "Spider-Man (2002)",
+                "Spider-Man 2 (2004)",
+                "Spider-Man 3 (2007)"
+            ]
+        },
+        {
+            "MarathonName": "Rocky Heptalogy",
+            "Length": "12hrs 48min",
+            "Movies": [
+                "Rocky (1976)",
+                "Rocky II (1979)",
+                "Rocky III (1982)",
+                "Rocky IV (1985)",
+                "Rocky V (1990)",
+                "Rocky Balboa (2006)",
+                "Creed (2015)"
+            ]
+        },
+        {
+            "MarathonName": "Planet of the Apes Pentalogy",
+            "Length": "8hrs 6min",
+            "Movies": [
+                "Planet of the Apes (1968)",
+                "Beneath the Planet of the Apes (1970)",
+                "Escape from the Planet of the Apes (1971)",
+                "Conquest of the Planet of the Apes (1972)",
+                "Battle for the Planet of the Apes (1973)"
+            ]
+        },
+         {
+            "MarathonName": "Back to the Future Trilogy",
+            "Length": "5hrs 42min",
+            "Movies": [
+                "Back to the Future (1985)",
+                "Back to the Future Part II (1989)",
+                "Back to the Future Part III (1990)"
+            ]
+        },
+         {
+            "MarathonName": "Hellboy Dilogy",
+            "Length": "4hrs 2min",
+            "Movies": [
+                "Hellboy (2004)",
+                "Hellboy II: The Golden Army (2008)"
+            ]
         }
     ]
 }
