@@ -16,6 +16,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         $.when(
             $.get('Data/marathons.json', function (data) {
                 marathons = data['MarathonList'];
+                  marathons.sort(function (a, b) {
+                    if (a.MarathonName < b.MarathonName) return -1;
+                    if (a.MarathonName > b.MarathonName) return 1;
+                    return 0;
+                });
                 var i = 0;
                 for (i = 0; i < marathons.length; i++) {
                     text += 'Name: ' + marathons[i].MarathonName + '\r\nLength: ' + marathons[i].Length+'\r\nMovies:\r\n';
