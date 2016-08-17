@@ -18,7 +18,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
         $.when(
             $.get('HTML/evenlistitem.html', function (data) { evenhtml = data; }),
             $.get('HTML/oddlistitem.html', function (data) { oddhtml = data; }),
-            $.get('Data/marathons.json', function (data) { marathons = data['MarathonList']; })).done(
+            $.get('Data/marathons.json', function (data) {
+                marathons = data['MarathonList'];
+                marathons.sort(function (a, b) {
+                    if (a.MarathonName < b.MarathonName) return -1;
+                    if (a.MarathonName > b.MarathonName) return 1;
+                    return 0;
+                });
+            })).done(
             function () {
                 var i = 0;
                 for (i = 0; i < marathons.length; i++) {
