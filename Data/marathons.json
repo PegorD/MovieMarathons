@@ -395,6 +395,16 @@
                 "Shanghai Noon (2000)",
                 "Shanghai Knights (2003)"
             ]
+        },
+        {
+            "MarathonName": "Underworld Tetralogy",
+            "Length": "6hrs 47min",
+            "Movies": [
+                "Underworld (2003)",
+                "Underworld: Evolution (2006)",
+                "Underworld: Rise of the Lycans (2009)",
+                "Underworld: Awakening (2012)"
+            ]
         }
     ]
 }
