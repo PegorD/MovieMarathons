@@ -398,12 +398,25 @@
         },
         {
             "MarathonName": "Underworld Tetralogy",
-            "Length": "6hrs 47min",
+            "Length": "8hrs 18min",
             "Movies": [
                 "Underworld (2003)",
                 "Underworld: Evolution (2006)",
                 "Underworld: Rise of the Lycans (2009)",
-                "Underworld: Awakening (2012)"
+                "Underworld: Awakening (2012)",
+                "Underworld: Blood Wars (2016)"
+            ]
+        },
+        {
+            "MarathonName": "Resident Evil Hexalogy",
+            "Length": "9hrs 47min",
+            "Movies": [
+                "Resident Evil (2002)",
+                "Resident Evil: Apocalypse (2004)",
+                "Resident Evil: Extinction (2007)",
+                "Resident Evil: Afterlife (2010)",
+                "Resident Evil: Retribution (2012)",
+                "Resident Evil: The Final Chapter (2016)"
             ]
         }
     ]
