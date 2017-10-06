@@ -21,7 +21,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                     if (a.MarathonName > b.MarathonName) return 1;
                     return 0;
                 });
-                var i = 0;
+               /*  var i = 0;
                 for (i = 0; i < marathons.length; i++) {
                     text += 'Name: ' + marathons[i].MarathonName + '\r\nLength: ' + marathons[i].Length+'\r\nMovies:\r\n';
                     var j = 0;
@@ -29,9 +29,12 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
                         text += marathons[i].Movies[j] + '\r\n';
                     }
                     text += '######################################################################################\r\n';
-                }
+                } */
+				
+				/*Download as JSON*/
+				text=JSON.stringify(marathons);
 
-                text+='*Extended Cut';
+               /* text+='*Extended Cut';*/
                 $('.btndown').attr('href', 'data:text/plain;charset=utf-8,'+encodeURIComponent(text));
             })
             );

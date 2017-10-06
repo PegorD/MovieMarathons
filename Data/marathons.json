@@ -426,6 +426,23 @@
                 "Resident Evil: Retribution (2012)",
                 "Resident Evil: The Final Chapter (2016)"
             ]
+        },
+        {
+            "MarathonName": "Blade Runner Dilogy",
+            "Length": "4hrs 40min",
+            "Movies": [
+                "Blade Runner (1982)",
+                "Blade Runner 2049 (2017)"
+            ]
+        },
+		{
+            "MarathonName": "Planet of the Apes Reboot Trilogy",
+            "Length": "6hrs 20min",
+            "Movies": [
+                "Rise of the Planet of the Apes (2011)",
+                "Dawn of the Planet of the Apes (2014)",
+                "War for the Planet of the Apes (2017)"
+            ]
         }
     ]
 }
