@@ -23,7 +23,7 @@ data['MarathonList']
             $.get('HTML/evenlistitem.html', function (data) { evenhtml = data; }),
             $.get('HTML/oddlistitem.html', function (data) { oddhtml = data; }),
             $.get('Data/marathons.json', function (data) {
-                marathons = JSON.parse(data);
+                marathons = JSON.parse(data['MarathonList']);
                 marathons.sort(function (a, b) {
                     if (a.MarathonName < b.MarathonName) return -1;
                     if (a.MarathonName > b.MarathonName) return 1;
